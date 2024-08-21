@@ -147,7 +147,27 @@ header{
     #menu-toggle:checked + .menu-icon + .menu-items{
         display: flex;
     }
+    .envio img{
+        width: 100%;
+    }
+    .center{
+        display: none;
+    }
+    .boton_crear{
+        width: 16%;
+        margin: 0 41.5%;
+    }
+    .inicio2{
+        margin: 6% 17;
+        width: 56%;
+    }
 }
+
+
+
+
+
+
 
 
 
