@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    font-family:  Arial;
+}
+a{
+    text-decoration: none;
+}
+.datos{
+    display: flex;
+    margin: 0 10em 0 0;
+
+}
+.datos p{
+    margin: 0 5%;
+    font-size: small;
+}
+
+header{
+    display: flex;
+}
+.center{
+    padding-left: 25%;
+}
+.menu a{
+    color: white;
+    text-align: center;
+    padding: 0.9em 1em;
+    text-decoration: none;
+    display: block;
+}
+.menu a:hover{
+    background-color: grey;
+}
+.menu-icon{
+    display: none;
+    font-size: 2em;
+    padding: 0.9em 1em;
+    cursor: pointer;
+    color: white;
+}
+.menu-items{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.menu-items li,{
+    margin: 0 2em 0 0;
+}
+.cuenta li{
+    display: flex
+}
+#menu-toggle{
+    display: none;
+}
+.menu{
+    background-color: black;
+    overflow: hidden;
+}
+header{
+    background-color: rgb(133, 34, 226);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.inicio img{
+    width: 70%;
+    text-align: center;
+}
+.portada{
+    text-align: center;
+    background-color: rgb(133, 34, 226);
+    height: 6%;
+ 
+}
+.portada h1{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 3em;
+}
+.cuenta{
+    width: 10%;
+  
+}
+.inicio1{
+    text-align: center;
+    margin: 10em 0 2em 0; 
+}
+.sisas{
+    border: none;
+    border-bottom: 1px grey solid;
+
+}
+
+.inicio1 a {
+
+    text-align: center;
+
+}
+
+.ola {
+
+    margin-left: 70%;
+    color: white;
+}
+.inicio2{
+    margin: 10em;
+    text-align: center;
+
+}
+.boton_crear{
+    text-decoration: none;
+    border: grey solid 1px;
+    background-color: grey solid;
+    color: black;
+    width: 5%;
+    margin: 0 47.5%;
+    font-size: small;
+}
+.boton_crear:hover{
+    background-color: grey;
+}
+.venta{
+    display: inline-block;
+}
+.venta img{
+    width: 70%;
+}
+.premium{
+    display: inline-block;
+    width: 40%;
+}
+.articulos img{
+    width: 30%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .menu-items{
+        flex-direction: column;
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menu-toggle:checked + .menu-icon + .menu-items{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
